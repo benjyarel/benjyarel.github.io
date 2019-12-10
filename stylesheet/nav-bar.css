@@ -1,0 +1,9 @@
+.navbar-vertical{
+  background:white;
+  position: fixed;
+  top: 0vh;
+  min-height: 100vh;
+  border-radius: 5px;
+  z-index:99;
+  width:175px;
+}
