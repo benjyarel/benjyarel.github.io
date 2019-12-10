@@ -1,1 +1,68 @@
 
+
+.header{
+  background:orange;
+  position: relative;
+  min-height: 85vh;
+  padding-left: 200px;
+  z-index:1;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 5vw)
+  );
+}
+
+
+.about-me {
+
+  margin-top: -5%;
+  padding-top: 10%;
+  padding-left: 150px;
+  min-height: 85vh;
+  background: grey;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0% 100%);
+}
+
+.skills-flexbox{
+ display: flex;
+}
+
+.skills{
+  background: blue ;
+  position: relative;
+  z-index: -1;
+  margin-top: -5%;
+  padding-top: 10%;
+  min-height: 85vh;
+  padding-left: 200px;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 5vw)
+  );
+}
+
+.projects{
+  margin-top: -5%;
+  padding-top: 10%;
+  background: yellow ;
+  min-height: 85vh;
+  z-index: -2;
+  position: relative;
+}
+
+.projects-grid{
+
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 100px 100px;
+  grid-gap: 20px;
+
+}
+
+.project{
+  background-color: red;
+}
