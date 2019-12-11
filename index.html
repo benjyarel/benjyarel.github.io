@@ -1,60 +1,70 @@
 <!DOCTYPE html>
   <html lang="en">
   <head>
-    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/3956043bb5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet/style.css">
 
     <meta charset="UTF-8">
     <title>Benjamin Leray Portfolio</title>
   </head>
 
   <body>
-   <div class="header">
-     <h1>Benjamin Leray</h1>
-     <h3>Développeur full-stack</h2>
-   </div>
-   <div class="about-me text-center">
-    <h3>A propos:</h3>
-     <p>Après avoir travaillé 8 années dans le secteur bancaire, je me suis formé auprès du Wagon, dans le cadre de leur module full-stack</p>
-     <p>Aujourd'hui Freelance, je suis à l'écoute de tout challenge motivant!</p>
+    <div class="header">
+      <div class="my-container">
+       <h1>Benjamin Leray</h1>
+       <h3>Développeur full-stack</h2>
+      </div>
+    </div>
+   <div class="about-me" id="about">
+    <div class="my-container">
+      <h3>A propos:</h3>
+      <p>Après avoir travaillé 8 années dans le secteur bancaire, je me suis formé auprès du Wagon, dans le cadre de leur module full-stack</p>
+      <p>Aujourd'hui Freelance, je suis à l'écoute de tout challenge motivant!</p>
+    </div>
    </div>
 
-    <div class="skills">
-      <h3>Skills:</h3>
-      <div class="skills-flexbox d-flex">
-        <div class="technical-stack">
-          <h5> HTML CSS JS RUBY ROR</h5>
-        </div>
-        <div class="tools-stack">
-          <h5> Github Heroku SublimeText</h5>
+    <div class="skills" id="skills">
+      <div class="my-container">
+        <h3>Skills:</h3>
+        <div class="skills-flexbox d-flex">
+          <div class="technical-stack">
+            <h5> HTML CSS JS RUBY ROR</h5>
+          </div>
+          <div class="tools-stack">
+            <h5> Github Heroku SublimeText</h5>
+          </div>
         </div>
       </div>
     </div>
 
     </div>
-    <div class="projects">
-      <h3 class="text-center">Projects:</h3>
-      <div class="projects-grid">
-        <!--  Grid avec deux élements par lignes-->
-        <div class="project" id="lewagon-simulator">
-          LE WAGON-SIMULATOR
-        </div>
-        <div class="project" id="MILFR">
-          MILFR: Mother in Law for Rent
+    <div class="projects" id="projects">
+      <div class="my-container">
+        <h3 class="text-center">Projects:</h3>
+        <div class="projects-grid">
+          <div class="project" id="lewagon-simulator">
+            LE WAGON-SIMULATOR
+          </div>
+          <div class="project" id="MILFR">
+            MILFR: Mother in Law for Rent
+          </div>
         </div>
       </div>
     </div>
+    <!--     Nav-bar sticky left -->
     <div class="navbar-vertical">
-      <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>PROJECTS</li>
+      <div class="avatar"></div>
+      <ul class="navigate">
+        <li><a href="#about" class="fa fa-user" aria-hidden="true">A propos</a></li>
+        <li><a href="#skills" class="fa fa-graduation-cap" aria-hidden="true">Skills</a></li>
+        <li><a href="#projects" class="fa fa-rocket" aria-hidden="true">Projets</a></li>
       </ul>
-      <ul>
-       <li>Git</li>
-       <li>Linkdin</li>
-       <li>Malt</li>
-       <li>Mail</li>
+      <ul class="links">
+       <a href="#"><li><i class="fab fa-github-square" aria-hidden="true"></i></li></a>
+       <a href="#"><li><i class="fab fa-linkedin" aria-hidden="true"></i></li></a>
+       <a href="#"><li><i class="fa fa-envelope" aria-hidden="true"></i></li></a>
+       <a href="#"><li><i class="fas fa-file-signature"></i></li></a>
       </ul>
     </div>
   </body>

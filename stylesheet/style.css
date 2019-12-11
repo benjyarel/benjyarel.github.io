@@ -2,3 +2,24 @@
 @import "content.css";
 @import "nav-bar.css";
 @import "header.css";
+
+
+ /*------- Annulation des styles a et ul -----*/
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+ list-style: none;
+}
+
+ /* container pour s'adapter à la nav bar */
+
+ .my-container{
+  margin :0px 100px 0px 275px;
+ }

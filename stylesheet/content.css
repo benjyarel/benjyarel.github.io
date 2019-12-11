@@ -3,7 +3,6 @@
 
   margin-top: -5%;
   padding-top: 10%;
-  padding-left: 150px;
   min-height: 85vh;
   background: #F7F7F9;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0% 100%);
@@ -14,13 +13,13 @@
 }
 
 .skills{
-  background:#3261f2c2; ;
+  background:#261f5e;
+  color: white;
   position: relative;
   z-index: -1;
   margin-top: -5%;
   padding-top: 10%;
   min-height: 45vh;
-  padding-left: 200px;
   clip-path: polygon(
     0 0,
     100% 0,
@@ -39,7 +38,6 @@
 }
 
 .projects-grid{
-
   display: grid;
   grid-template-columns:1fr 1fr;
   grid-template-rows: 100px 100px;
