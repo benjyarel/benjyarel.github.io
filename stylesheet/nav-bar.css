@@ -1,8 +1,8 @@
 .navbar-vertical{
-  background:white;
+  background: #1e686d;
   position: fixed;
-  top: 0vh;
-  min-height: 100vh;
+  top: 5vh;
+  min-height: 90vh;
   border-radius: 5px;
   z-index:99;
   width:175px;
