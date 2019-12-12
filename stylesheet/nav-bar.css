@@ -1,5 +1,5 @@
 .navbar-vertical{
-  background: #1e686d;
+  background: #1a5b5f;
   position: fixed;
   top: 5vh;
   min-height: 90vh;
@@ -10,36 +10,56 @@
 
 .avatar{
   margin :15px auto;
-  background: white;
+  background: url(https://avatars2.githubusercontent.com/u/49406128?s=460&v=4);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: contain;
   width: 75px;
   height: 75px;
   border-radius:50%;
+  border: solid 2px #e3d9f5;
 }
+
 
 
 
 .navigate{
-    padding: 0;
-    margin: 20px;
+
+  padding: inherit;
 }
+
 .navigate li{
-  border-top: 1px solid darkgrey;
-  padding: 5px 20px;
+  margin: 0px 20px;
+  border-bottom: 1px solid #e3d9f5;
+  padding: 20px 10px;
   font-size: 20px;
+  color: #e3d9f5;
+}
+
+.navigate span {
+  padding-left: 5px;
+  color: #e3d9f5;
 }
 
 
 
 .links{
-  padding: 10px;
-  margin: 0px;
+  border-top: solid 1px #e3d9f5;
+  padding: 0px;
+  padding-bottom: 15px;
+  padding-top: 20px;
   bottom: 5px;
   position: absolute;
+  margin: 0px 15px;
+
+
 }
 .links li {
   display: inline;
-  padding: 0;
+  padding: 5px 2px;
+  color: #e3d9f5;
 }
 .links i {
   font-size: 30px;
+  color: #e3d9f5;
 }
