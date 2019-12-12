@@ -1,8 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Poppins&display=swap');
 @import "content.css";
 @import "nav-bar.css";
 @import "header.css";
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Poppins&display=swap');
+@import "projects.css";
+@import "skills.css";
 
 /* -------------typo --------------*/
 /*
