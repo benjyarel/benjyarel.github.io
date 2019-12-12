@@ -1,8 +1,23 @@
 
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Poppins&display=swap');
 @import "content.css";
 @import "nav-bar.css";
 @import "header.css";
+@import "projects.css";
+@import "skills.css";
 
+/* -------------typo --------------*/
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Bebas Neue', cursive;*/
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+h3{
+  font-family: 'Bebas Neue', cursive;
+}
 
  /*------- Annulation des styles a et ul -----*/
 a{
