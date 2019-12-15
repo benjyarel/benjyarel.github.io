@@ -13,6 +13,7 @@ font-family: 'Bebas Neue', cursive;*/
 
 body{
   font-family: 'Poppins', sans-serif;
+  background: #f7f7f9;
 }
 
 h3{
@@ -38,3 +39,7 @@ ul{
  .my-container{
   margin :0px 100px 0px 275px;
  }
+
+.gap{
+  height: 67px;
+}
