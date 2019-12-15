@@ -29,8 +29,11 @@
   background: rgba(0,0,0,0.5);
   border: solid 2px #1c5163;
   text-align: center;
-  padding: 5px 7px;
+  padding: 15px 10px;
   min-width: 350px;
   margin: 15px;
 }
 
+#technical-stack{
+  margin-left: 130px;
+}

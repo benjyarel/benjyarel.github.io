@@ -3,7 +3,7 @@
   background-image:linear-gradient(180deg, rgba(23,1,1,0.73) 17%, rgba(23,1,1,0.60) 72%), url(images/header.jpg);
   background-size: cover;
   position: relative;
-  min-height: 85vh;
+  min-height: 75vh;
   z-index:1;
   clip-path: polygon(
     0 0,
@@ -15,10 +15,14 @@
 
 h1{
   padding-top: 200px;
+  font-size: 56px;
+  padding-bottom: 20px;
+
 }
 
 .header h1, .header h3 {
   font-family: 'Bebas Neue', cursive;
   color:white;
-  text-shadow: 0 2px 2px #9798a9;;
+  text-shadow: 0 2px 2px #9798a9;
+  text-align: center;
 }

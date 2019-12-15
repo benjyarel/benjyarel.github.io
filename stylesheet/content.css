@@ -8,5 +8,11 @@
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0% 100%);
 }
 
+.about-me h3 {
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 
 
