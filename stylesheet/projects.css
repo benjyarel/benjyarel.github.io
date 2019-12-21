@@ -6,6 +6,8 @@
   min-height: 85vh;
   position: relative;
 }
+
+}
 .projects h3 {
   text-decoration: underline;
   text-align: center;
@@ -13,6 +15,7 @@
 }
 
 .card-project{
+  opacity: 0;
   margin: 25px 0px;
   display: flex;
   justify-content: space-between;
@@ -55,4 +58,6 @@ text-decoration: underline;
   text-align: center;
   margin: 15px 0px;
 }
-
+ .active{
+  opacity:1;
+  transition: all 2s ease-out;
