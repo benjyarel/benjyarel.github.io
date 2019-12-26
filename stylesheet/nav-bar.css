@@ -2,7 +2,8 @@
   background: #1a5b5f;
   position: fixed;
   top: 5vh;
-  min-height: 90vh;
+  min-height: 625px;
+  max-height: 725px;
   border-radius: 5px;
   z-index:99;
   width:175px;

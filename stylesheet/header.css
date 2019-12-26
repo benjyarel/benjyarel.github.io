@@ -3,7 +3,7 @@
   background-image:linear-gradient(180deg, rgba(23,1,1,0.73) 17%, rgba(23,1,1,0.60) 72%), url("images/header.jpg");
   background-size: cover;
   position: relative;
-  min-height: 75vh;
+  height: 500px;
   z-index:1;
   clip-path: polygon(
     0 0,
