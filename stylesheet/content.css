@@ -2,8 +2,8 @@
 .about-me {
 
   margin-top: -5%;
-  padding-top: 10%;
-  min-height: 55vh;
+  padding-top: 8%;
+  height: 60vh;
   background: #F7F7F9;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0% 100%);
 }
