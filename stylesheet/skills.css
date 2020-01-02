@@ -1,5 +1,6 @@
 .skills-flexbox {
  display: flex;
+ margin: 88px;
 }
 
 .skills {
@@ -10,7 +11,8 @@
   z-index: -1;
   margin-top: -5%;
   padding-top: 10%;
-  height: 350px;
+  height: fit-content;
+  padding: 50px;
   clip-path: polygon(
     0 0,
     100% 0,
@@ -30,7 +32,6 @@
   border: solid 2px #1c5163;
   text-align: center;
   padding: 15px 10px;
- /* min-width: 400px;*/
   margin: 15px;
 }
 
@@ -38,3 +39,20 @@
   margin-left: 75px;
 }
 
+@media(max-width: 768px) {
+  .skills {
+    height: fit-content;
+    padding: 50px;
+  }
+
+  .skills-flexbox {
+    display: block;
+  }
+}
+
+@media(min-width: 1300px) {
+  .skills {
+    height: 45vh;
+    padding: 15vh;
+  }
+}

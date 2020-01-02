@@ -2,7 +2,7 @@
 .about-me {
   margin-top: -5%;
   padding-top: 8%;
-  height: 500px;
+  min-height: 450px;
   background: #F7F7F9;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0% 100%);
 }

@@ -47,6 +47,12 @@ ul {
   margin-left: 200px;
  }
 
+@media (max-width: 768px) {
+  .my-container{
+    margin-left: 32px;
+  }
+
+}
  @media(min-width: 1300px) {
   .my-container {
     margin-left: 30%;
