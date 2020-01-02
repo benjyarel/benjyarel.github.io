@@ -1,4 +1,4 @@
-.navbar-vertical{
+.navbar-vertical {
   background: #1a5b5f;
   position: fixed;
   top: 5vh;
@@ -9,7 +9,7 @@
   width:175px;
 }
 
-.avatar{
+.avatar {
   margin :15px auto;
   background: url(https://avatars2.githubusercontent.com/u/49406128?s=460&v=4);
   background-repeat:no-repeat;
@@ -21,15 +21,11 @@
   border: solid 2px #e3d9f5;
 }
 
-
-
-
-.navigate{
-
+.navigate {
   padding: inherit;
 }
 
-.navigate li{
+.navigate li {
   margin: 0px 20px;
   border-bottom: 1px solid #e3d9f5;
   padding: 20px 10px;
@@ -42,9 +38,7 @@
   color: #e3d9f5;
 }
 
-
-
-.links{
+.links {
   border-top: solid 1px #e3d9f5;
   padding: 0px;
   padding-bottom: 15px;
@@ -52,15 +46,21 @@
   bottom: 5px;
   position: absolute;
   margin: 0px 15px;
-
-
 }
+
 .links li {
   display: inline;
   padding: 5px 2px;
   color: #e3d9f5;
 }
+
 .links i {
   font-size: 30px;
   color: #e3d9f5;
+}
+
+@media(max-width: 768px) {
+  .navbar-vertical {
+  display: none;
+  }
 }

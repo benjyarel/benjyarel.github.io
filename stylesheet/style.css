@@ -44,6 +44,12 @@ ul{
   margin-left: 200px;
  }
 
+ @media (max-width: 768px) {
+  .my-container {
+    margin-left: 64px;
+  }
+ }
+
 .gap {
   height: 67px;
 }
