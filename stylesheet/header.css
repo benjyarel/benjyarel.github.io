@@ -13,14 +13,13 @@
   );
 }
 
-h1{
+h1 {
   padding-top: 200px;
   font-size: 64px;
   padding-bottom: 20px;
-
 }
 
-.header h1, .header h3 {
+.header h1, .header h2 {
   font-family: 'Bebas Neue', cursive;
   color:white;
   text-shadow: 0 2px 2px #9798a9;
