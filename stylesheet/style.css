@@ -7,27 +7,26 @@
 @import "skills.css";
 
 /* -------------typo --------------*/
-/*
-font-family: 'Poppins', sans-serif;
-font-family: 'Bebas Neue', cursive;*/
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
   background: #f7f7f9;
+  margin: 0;
+  padding: 0;
 }
 
-h3{
+h3 {
   font-family: 'Bebas Neue', cursive;
   font-size: 36px;
 }
 
  /*------- Annulation des styles a et ul -----*/
-a{
+a {
   text-decoration: none;
   color: inherit;
   scroll-behavior: smooth;
 }
-a:hover{
+a:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -37,12 +36,14 @@ ul{
 }
 
  /* container pour s'adapter à la nav bar */
-
- .my-container{
-  margin :0px 100px 0px 275px;
-  scroll-behavior: smooth;
+ .container-fluid {
+  padding: 0;
  }
 
-.gap{
+ .my-container {
+  margin-left: 200px;
+ }
+
+.gap {
   height: 67px;
 }

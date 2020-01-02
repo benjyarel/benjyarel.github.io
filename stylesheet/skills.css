@@ -1,8 +1,8 @@
-.skills-flexbox{
+.skills-flexbox {
  display: flex;
 }
 
-.skills{
+.skills {
   background-image:linear-gradient(180deg, rgba(23,1,1,0.73) 17%, rgba(23,1,1,0.60) 72%), url(images/header.jpg);
   background-size: cover;
   color: white;
@@ -10,7 +10,7 @@
   z-index: -1;
   margin-top: -5%;
   padding-top: 10%;
-  min-height: 55vh;
+  height: 350px;
   clip-path: polygon(
     0 0,
     100% 0,
@@ -24,7 +24,7 @@
   margin: 2px;
 }
 
-.stack{
+.stack {
   border-radius: 5px;
   background: rgba(0,0,0,0.5);
   border: solid 2px #1c5163;
@@ -34,7 +34,7 @@
   margin: 15px;
 }
 
-#technical-stack{
+#technical-stack {
   margin-left: 75px;
 }
 
