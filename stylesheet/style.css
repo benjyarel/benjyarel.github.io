@@ -46,8 +46,32 @@ ul{
 
  @media (max-width: 768px) {
   .my-container {
-    margin-left: 64px;
+    margin-left: 32px;
   }
+  .card-project {
+    display :block;
+    width: auto;
+    margin-right: 32px;
+    height: fit-content;
+    padding: 10px 0px;
+  }
+
+  .card-img {
+    width: auto;
+    min-height: 240px;
+    margin: 16px;
+  }
+  .card-info{
+    margin: 16px;
+  }
+ }
+
+ @media(min-width: 1300px) {
+  .my-container {
+    margin-left: 30%;
+    max-width: 900px;
+  }
+
  }
 
 .gap {
