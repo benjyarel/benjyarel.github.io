@@ -42,11 +42,11 @@
 @media(max-width: 768px) {
   .skills {
     height: fit-content;
-    padding: 50px;
   }
 
   .skills-flexbox {
     display: block;
+    margin: 0;
   }
 }
 
