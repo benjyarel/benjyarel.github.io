@@ -10,9 +10,9 @@
   position: relative;
   z-index: -1;
   margin-top: -5%;
-  padding-top: 10%;
+  padding-top: 11%;
   height: fit-content;
-  padding: 50px;
+  padding: 55px;
   clip-path: polygon(
     0 0,
     100% 0,
@@ -50,9 +50,9 @@
   }
 }
 
-@media(min-width: 1300px) {
+@media(min-width: 1200px) {
   .skills {
-    height: 45vh;
-    padding: 15vh;
+    /*height: 65vh;*/
+    /*padding: 200px;*/
   }
 }
