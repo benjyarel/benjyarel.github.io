@@ -18,21 +18,4 @@
     });
 };
 
-  // ------------------------------------------------------------------------------
-    // JS pour afficher les stacks on clicks, ne fonctionne pas avec prb de z-index
-    // pour les clip-paths
-
-//   const stacks = document.querySelectorAll(".stack");
-//   console.log(stacks);
-
-//   const showStack = () =>{
-//     stacks.forEach(stack =>{
-//       console.log(stack);
-//       stack.addEventListener("click",(event)=> {
-//       stack.classList.toggle('show-me')
-//       });
-//     });
-//   }
-
-// showStack();
 fadeInProjects();
